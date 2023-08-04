@@ -1,0 +1,1 @@
+docker run -d --restart unless-stopped -p 9020:8080 -p 9021:5900 -e VNCEXPOSE=0 -e VNCDISPLAY=1520x720 -e VNCPWD=8i5yts e VNCDEPTH=16 iphoneintosh/kali-docker:latest
